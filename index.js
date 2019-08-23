@@ -20,14 +20,16 @@ const logWhisper = string =>{
 
 // test 5
 var sayHiToGrandma = string =>{
-  if (string === string.toLowerCase()){
+  let newString = string.toLowerCase()
+  if (string === newString){
     return "I can\'t hear you!!"
   }
 }
 
 // test 6
 var sayHiToGrandma = string =>{
-  if(string === string.toUpperCase()){
+  let newString = string.toUpperCase()
+  if(string === newString){
     return "YES INDEED!"
   }
 }
