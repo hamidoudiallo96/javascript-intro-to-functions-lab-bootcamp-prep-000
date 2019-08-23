@@ -24,7 +24,7 @@ const sayHiToGrandma = string =>{
   let bigString = string.toUpperCase()
   const greeting = "I love you, Grandma."
   if (string === smallString){
-    return "I can't hear you!!"
+    return "I can't hear you!"
   }
   else if(string === bigString){
     return "YES INDEED!"
