@@ -19,9 +19,25 @@ const logWhisper = string =>{
 };
 
 // test 5
-const sayHiToGrandma = string =>{
+var sayHiToGrandma = string =>{
   if (string === string.toLowerCase()){
     return "I can't hear you!"
   }
 }
+
+// test 6
+var sayHiToGrandma = string =>{
+  if(string === string.toUpperCase()){
+    return "YES INDEED!"
+  }
+}
+
+// test 7
+var sayHiToGrandma = string =>{
+  const greeting = "I love you, Grandma."
+  if(string === greeting){
+    return "I love you, too."
+  }
+}
+
   
