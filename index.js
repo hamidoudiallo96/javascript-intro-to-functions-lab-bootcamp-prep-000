@@ -20,5 +20,8 @@ const logWhisper = string =>{
 
 // test 5
 const sayHiToGrandma = string =>{
-  
+  if (string === string.toLowerCase()){
+    return "I can't hear you!"
+  }
 }
+  
