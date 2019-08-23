@@ -18,26 +18,18 @@ const logWhisper = string =>{
   console.log(string.toLowerCase());
 };
 
-// test 5
-function sayHiToGrandma(string){
-  let newString = string.toLowerCase()
-  if (string === newString){
+
+const sayHiToGrandma = string =>{
+  let smallString = string.toLowerCase()
+  let bigString = string.toUpperCase()
+  const greeting = "I love you, Grandma."
+  if (string === smallString){
     return "I can\'t hear you!!"
   }
-}
-
-// test 6
-function sayHiToGrandma(string){
-  let newString = string.toUpperCase()
-  if(string === newString){
+  else if(string === bigString){
     return "YES INDEED!"
   }
-}
-
-// test 7
-var sayHiToGrandma = string =>{
-  const greeting = "I love you, Grandma."
-  if(string === greeting){
+  else if(string === greeting){
     return "I love you, too."
   }
 }
