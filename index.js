@@ -4,3 +4,6 @@ const shout = string =>{
 };
 
 // test 2
+const whisper = string =>{
+  return string.toLowerCase();
+};
