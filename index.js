@@ -14,6 +14,6 @@ const logShout = string =>{
 };
 
 // test 4
-const whisperShout = string =>{
+const logWhisper = string =>{
   console.log(string.toLowerCase());
 };
